@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/html.iml" filepath="$PROJECT_DIR$/.idea/html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/onthefly.iml" filepath="$PROJECT_DIR$/.idea/onthefly.iml" />
     </modules>
   </component>
 </project>
