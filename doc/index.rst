@@ -9,7 +9,7 @@
 .. toctree::
    :maxdepth: 2
 
-   SfM.md
+   SfMen.md
 
 
 
