@@ -38,13 +38,13 @@ After obtaining application permissions to enter the home screen, you should fir
 
 The home screen is shown as below：
 
-<img src="D:\Documents\md\SfMen.assets\1714048336125.png" alt="1714048336125" style="zoom: 25%;" />
+<img src="_static\images\1714048336125.png" alt="1714048336125" style="zoom: 25%;" />
 
 
 
 Then click the setting button to enter the setting screen：
 
-<img src="D:\Documents\md\SfMen.assets\1714048336121.png" alt="1714048336121" style="zoom:25%;" />
+<img src="_static\images\1714048336121.png" alt="1714048336121" style="zoom:25%;" />
 
 Enter the server address and port number in the Server ip field, the format is **http://[ip]:[port]**
 
@@ -52,7 +52,7 @@ Enter the server address and port number in the Server ip field, the format is *
 
 ##### 4.Restart the application, and enter the video screen
 
-<img src="D:\Documents\md\SfM.assets\1714048336114.png" alt="1714048336114" style="zoom:25%;" /><img src="D:\Documents\md\SfMen.assets\1714048336105.png" alt="1714048336105" style="zoom:25%;" />
+<img src="_static\images\1714048336114.png" alt="1714048336114" style="zoom:25%;" /><img src="_static\images\1714048336105.png" alt="1714048336105" style="zoom:25%;" />
 
 In the upper right corner of the application page, the gray indicator indicates that the client is not connected to the server, and the green indicator indicates that the connection is normal and the photos can be transferred.
 
@@ -82,7 +82,7 @@ Every time you change the server ip address and port in application Settings, yo
 
 If the following output is displayed, the server is running successfully:
 
-<img src="D:\Documents\md\SfMen.assets\20240426115953047.png" alt="20240426115953047" style="zoom:100%;" />
+<img src="_static\images\20240426115953047.png" alt="20240426115953047" style="zoom:100%;" />
 
 ##### 3.Attentions
 
