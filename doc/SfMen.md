@@ -6,11 +6,11 @@ This system represents an integrated platform encompassing image data acquisitio
 
 On-the-Fly SfM (source code)：
 
-[https://github.com/RayShark0605/On_the_fly_SfM]: https://github.com/RayShark0605/On_the_fly_SfM
+<https://github.com/RayShark0605/On_the_fly_SfM>
 
 On-the-Fly SfMv2 (project website)：
 
-[https://yifeiyu225.github.io/on-the-flySfMv2.github.io]:https://yifeiyu225.github.io/on-the-flySfMv2.github.io
+<https://yifeiyu225.github.io/on-the-flySfMv2.github.io>
 
 
 
