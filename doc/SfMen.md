@@ -22,7 +22,7 @@ On-the-Fly SfMv2 (project website)：
 
 ##### 1.Download the latest version of the client app
 
-//TODO 下载链接link
+<https://github.com/sygant/onthefly/releases/download/v1.0.0/onthefly.apk>
 
 
 
@@ -74,7 +74,7 @@ Every time you change the server ip address and port in application Settings, yo
 
 ##### 1.Download the latest server
 
-//TODO下载链接 link
+<https://github.com/sygant/onthefly/releases/download/v1.0.0/OntheflyServer.rar>
 
  
 
