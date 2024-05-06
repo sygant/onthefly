@@ -2,7 +2,7 @@
 
 This system represents an integrated platform encompassing image data acquisition, wireless transmission, and display capabilities. In conjunction with the On the fly System, it serves as an interactive gateway on mobile devices. The system comprises two primary components: an Android application and a server-side infrastructure. Through the utilization of the efficient WebSocket communication protocol, it facilitates real-time, stable, and secure transmission of imagery and other pertinent data, making it a valuable asset for academic research and applications.
 
-### Relative Project Homepage
+### Project Homepage
 
 On-the-Fly SfM (source code)：
 

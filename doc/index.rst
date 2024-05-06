@@ -9,4 +9,5 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   OntheflySfMen.md
    SfMen.md
