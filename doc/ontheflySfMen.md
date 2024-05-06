@@ -107,7 +107,7 @@ This system can run on local datasets and can also perform real-time image proce
 
 The integrated image transmission system usage instructions are linked as below:
 
-[On the fly SfM Image Transmission System Introduction](https://sygant.github.io/onthefly/SfMen.html)
+[On the fly SfM Image Transmission System Introduction](https://sygant.github.io/onthefly/SfMClienten.html)
 
 Next are the On-the-Fly SfM system instructions:
 
