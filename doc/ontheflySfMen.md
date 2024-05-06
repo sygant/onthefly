@@ -1,7 +1,7 @@
 ## On-the-Fly SfM System Instructions
 
 ### Download the On-the-Fly SfM
-
+<https://github.com/sygant/onthefly/releases/download/v1.0.0>
 
 
 ### Install the On-the-Fly SfM
