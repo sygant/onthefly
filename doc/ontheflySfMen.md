@@ -6,37 +6,50 @@
 
 ### Install the On-the-Fly SfM
 
-![图片 1](_static\images\OntheFlySfM\图片 1.png)
+The system installation package contains an .exe setup file and the environment files required to run the system.
+
+<img src="_static\images\OntheFlySfM\图片 1.png" alt="图片 1"/>
 
 Double click the “On-the-fly SfM Setup.exe” to start installation.
 
 
 
-![](_static\images\OntheFlySfM\图片 2.png)
+<img src="_static\images\OntheFlySfM\图片 2.png" alt="图片 2"/>
 
 Click “接受” to the next step.
 
 
 
-![图片 3](_static\images\OntheFlySfM\图片 3.png)
+<img src="_static\images\OntheFlySfM\图片 3.png" alt="图片 3"/>
 
 You can select the path you want to install by clicking “浏览”. Then click “解压”, and wait for the installation to complete.
 
 
 
-![图片 4](_static\images\OntheFlySfM\图片 4.png)
+<img src="_static\images\OntheFlySfM\图片 4.png" alt="图片 4"/>
 
 After the installation finished, you will get the above folder.
 
+Then, Copy the DLLs and Lib folders in the compressed package to the above folder.
+
+After the installation is completed, the directory structure should be as follows:
+
+- Root folder ("On-the-fly SfM" folder in this document)
+  - DLLs
+  - Lib
+  - Models
+  - On-the-fly SfM.exe
+  - ...
 
 
-__Attention：__CUDA is necessary, otherwise it may lack some dynamic library DLL. (CUDA12.2 works, other versions are not tested yet)
+
+**Attention：** CUDA is necessary, otherwise it may lack some dynamic library DLL. (CUDA12.2 works, other versions are not tested yet)
 
 
 
 ### Project configuration
 
-![图片 5](_static\images\OntheFlySfM\图片 5.png)
+<img src="_static\images\OntheFlySfM\图片 5.png" alt="图片 5"/>
 
 Before using it, you need to configure the environment:
 
@@ -44,43 +57,43 @@ Open “config.ini” with notepad.
 
 - The paths of the “pthPath”, “HDF5Path”, “checkPointPath”, and “PCAModelPath” are recommended as absolute paths. (The full file path where it located, such as the picture above)
 
-![图片 6](_static\images\OntheFlySfM\图片 6.png)
+<img src="_static\images\OntheFlySfM\图片 6.png" alt="图片 6"/>
 
 
 
 - If “isAutoRunImages=0”, “receiverBasePath” should be set to the app server path. (also should be absolute path).
 
-![图片 7](_static\images\OntheFlySfM\图片 7.png)
+<img src="_static\images\OntheFlySfM\图片 7.png" alt="图片 7"/>
 
 
 
 - “isMerge” indicates whether a model merge will occur. The default value is 0. The current system takes a long time to merge models, for unknown reasons, so it is recommended to set this to 0 for now, so that you will not merge models, but you will still end up with multiple complete models.
 
-![图片 8](_static\images\OntheFlySfM\图片 8.png)
+<img src="_static\images\OntheFlySfM\图片 8.png" alt="图片 8"/>
 
 
 
 - “isUseGlobalFeatures” means whether to use VGG16+NetVlad global features. The default value is 1. If set to 0, the system will only use SIFT to extract features and perform SIFT exhaustive matching.
 
-![图片 9](_static\images\OntheFlySfM\图片 9.png)
+<img src="_static\images\OntheFlySfM\图片 9.png" alt="图片 9"/>
 
 
 
 - “isAutoRunImages” indicates whether the image is automatically read to start reconstruction. The default value is 0. If it is set to 1, it can be used for existing image datasets, after specifying the path of the image, the system will automatically pass in the image in order, at this time there is no need to run the app and its server side.
 
-![图片 10](_static\images\OntheFlySfM\图片 10.png)
+<img src="_static\images\OntheFlySfM\图片 10.png" alt="图片 10"/>
 
 
 
 - “isDisableModelViewer” specifies whether to disable the model browsing window. The default value is 0. In some rare cases, where the system may flash back or crash when running certain datasets in certain configurations, disabling the model browsing window may be useful for unknown reasons.
 
-![图片 11](_static\images\OntheFlySfM\图片 11.png)
+<img src="_static\images\OntheFlySfM\图片 11.png" alt="图片 11"/>
 
 
 
 -  “isDemoMode” indicates whether it is in demo mode. The default value is 1. In demo mode, the right image list will automatically be pulled to the bottom as the image is added (this may cause the program to flash or crash for unknown reasons), and reconstruction will begin earlier.
 
-![图片 12](_static\images\OntheFlySfM\图片 12.png)
+<img src="_static\images\OntheFlySfM\图片 12.png" alt="图片 12"/>
 
 
 
@@ -100,7 +113,7 @@ Next are the On-the-Fly SfM system instructions:
 
 Double click the “On-the-fly SfM.exe” to run.
 
-![图片 13](_static\images\OntheFlySfM\图片 13.png)
+<img src="_static\images\OntheFlySfM\图片 13.png" alt="图片 13"/>
 
 
 
@@ -108,7 +121,7 @@ Start by selecting “新项目” under “项目” menu to create Project.
 
 <img src="_static\images\OntheFlySfM\图片 14.png" alt="图片 14" style="zoom: 80%;" />
 
-![图片 15](_static\images\OntheFlySfM\图片 15.png)
+<img src="_static\images\OntheFlySfM\图片 15.png" alt="图片 15"/>
 
 Select the storage path for “Database”.
 
@@ -116,7 +129,7 @@ Select the storage path for “Database”.
 
 The “Images” path should select the path of “upload” in the app server folder in your computer.
 
-![图片 16](_static\images\OntheFlySfM\图片 16.png)
+<img src="_static\images\OntheFlySfM\图片 16.png" alt="图片 16"/>
 
 
 
@@ -128,17 +141,17 @@ Then, click the “开始接收” button，to start image receiving and process
 
 When the reconstruction is finished, click the "停止接收" button to stop receiving images.
 
-![图片 18](_static\images\OntheFlySfM\图片 18.png)
+<img src="_static\images\OntheFlySfM\图片 18.png" alt="图片 18"/>
 
 
 
 Finally, you can export the model in the “项目” menu.
 
-![图片 19](_static\images\OntheFlySfM\图片 19.png)
+<img src="_static\images\OntheFlySfM\图片 19.png" alt="图片 19"/>
 
 
 
-__Attention：__
+**Attention：** 
 
 (1) If the End Receive button is clicked while the model is being saved or still being reconstruct, the program is likely to crash. So, before click the End Receive button, you should ensure the reconstruction is finished.
 
@@ -154,7 +167,7 @@ Start by selecting “新项目” under “项目” menu to create Project.
 
 <img src="_static\images\OntheFlySfM\图片 20.png" alt="图片 20" style="zoom:80%;" />
 
-![图片 21](_static\images\OntheFlySfM\图片 21.png)
+<img src="_static\images\OntheFlySfM\图片 21.png" alt="图片 21"/>
 
 Select the storage path for “Database”.
 
@@ -164,7 +177,7 @@ Select the dataset path for “Images”.
 
 Then, click the “开始接收” button，to start image receiving and processing.
 
-![图片 22](_static\images\OntheFlySfM\图片 22.png)
+<img src="_static\images\OntheFlySfM\图片 22.png" alt="图片 22"/>
 
 
 
@@ -172,7 +185,7 @@ There are two ways to receive existing image data.
 
 (1) We provide a transmission simulator through which you can manually control the transmission of images. In this way, “isAutoRunImages” should be set to 0 in “config.ini”.
 
-![图片 23](_static\images\OntheFlySfM\图片 23.png)
+<img src="_static\images\OntheFlySfM\图片 23.png" alt="图片 23"/>
 
 First select the image path by clicking "浏览".
 
@@ -184,7 +197,7 @@ Click “暂停” to temporarily stop the image transmission;
 
 Click “终止” to terminate the image transmission;
 
-__Attention：__Before you start using analog transmission, you should start receiving images in On-the-fly SfM.
+**Attention：** Before you start using analog transmission, you should start receiving images in On-the-fly SfM.
 
 
 

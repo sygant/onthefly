@@ -1,4 +1,4 @@
-## On the fly SfM Image Transmission System Introduction
+## On-the-Fly SfM Image Transmission System Instructions
 
 This system represents an integrated platform encompassing image data acquisition, wireless transmission, and display capabilities. In conjunction with the On the fly System, it serves as an interactive gateway on mobile devices. The system comprises two primary components: an Android application and a server-side infrastructure. Through the utilization of the efficient WebSocket communication protocol, it facilitates real-time, stable, and secure transmission of imagery and other pertinent data, making it a valuable asset for academic research and applications.
 
