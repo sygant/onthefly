@@ -43,7 +43,10 @@ After the installation is completed, the directory structure should be as follow
 
 
 
-**Attention：** CUDA is necessary, otherwise it may lack some dynamic library DLL. (CUDA12.2 works, other versions are not tested yet)
+**Attention：** 
+
+- CUDA is necessary, otherwise it may lack some dynamic library DLL. (CUDA12.2 works, other versions are not tested yet). The recommended GPU memory is at least 8GB.
+- All paths must be in English letters, and should not contain any special characters (such as spaces).
 
 
 
