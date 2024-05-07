@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>On-the-Fly SfM Image Transmission System Instructions &mdash; On the fly SfM  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=5929fcd5"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="On-the-Fly SfM System Instructions" href="ontheflySfMen.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            On the fly SfM
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="ontheflySfMen.html">On-the-Fly SfM System Instructions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">On-the-Fly SfM Image Transmission System Instructions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#project-homepage">Project Homepage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#instructions-for-mobile-app">Instructions for mobile app</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#download-the-latest-version-of-the-client-app">1.Download the latest version of the client app</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#authorization-for-the-installed-app">2.Authorization for the installed app</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#set-the-server-address-and-port">3.Set the server address and port</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#restart-the-application-and-enter-the-video-screen">4.Restart the application, and enter the video screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#attention">5.Attention</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#instructions-for-server-side-settings">Instructions for server side settings</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#download-the-latest-server">1.Download the latest server</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#decompress-the-directory-and-double-click-the-bat-file">2.Decompress the directory and double-click the bat file</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#attentions">3.Attentions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">On the fly SfM</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">On-the-Fly SfM Image Transmission System Instructions</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/SfMClienten.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="on-the-fly-sfm-image-transmission-system-instructions">
+<h1>On-the-Fly SfM Image Transmission System Instructions<a class="headerlink" href="#on-the-fly-sfm-image-transmission-system-instructions" title="Link to this heading"></a></h1>
+<p>This system represents an integrated platform encompassing image data acquisition, wireless transmission, and display capabilities. In conjunction with the On the fly System, it serves as an interactive gateway on mobile devices. The system comprises two primary components: an Android application and a server-side infrastructure. Through the utilization of the efficient WebSocket communication protocol, it facilitates real-time, stable, and secure transmission of imagery and other pertinent data, making it a valuable asset for academic research and applications.</p>
+<section id="project-homepage">
+<h2>Project Homepage<a class="headerlink" href="#project-homepage" title="Link to this heading"></a></h2>
+<p>On-the-Fly SfM (source code)：</p>
+<p><a class="reference external" href="https://github.com/RayShark0605/On_the_fly_SfM">https://github.com/RayShark0605/On_the_fly_SfM</a></p>
+<p>On-the-Fly SfMv2 (project website)：</p>
+<p><a class="reference external" href="https://yifeiyu225.github.io/on-the-flySfMv2.github.io">https://yifeiyu225.github.io/on-the-flySfMv2.github.io</a></p>
+</section>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Link to this heading"></a></h2>
+<section id="instructions-for-mobile-app">
+<h3>Instructions for mobile app<a class="headerlink" href="#instructions-for-mobile-app" title="Link to this heading"></a></h3>
+<section id="download-the-latest-version-of-the-client-app">
+<h4>1.Download the latest version of the client app<a class="headerlink" href="#download-the-latest-version-of-the-client-app" title="Link to this heading"></a></h4>
+<p><a class="reference external" href="https://github.com/sygant/onthefly/releases/download/v1.0.0/onthefly.apk">https://github.com/sygant/onthefly/releases/download/v1.0.0/onthefly.apk</a></p>
+</section>
+<section id="authorization-for-the-installed-app">
+<h4>2.Authorization for the installed app<a class="headerlink" href="#authorization-for-the-installed-app" title="Link to this heading"></a></h4>
+<p>An authorization screen will appear upon the first launch of the app. Accessing the camera and external storage files are considered sensitive permissions in the Android system. However, these permissions are necessary for the operation of this system and please grant the permissions.</p>
+</section>
+<section id="set-the-server-address-and-port">
+<h4>3.Set the server address and port<a class="headerlink" href="#set-the-server-address-and-port" title="Link to this heading"></a></h4>
+<p>After obtaining application permissions to enter the home screen, you should first set the address and connect to the server.</p>
+<p>The home screen is shown as below：</p>
+<img src="_static\images\1714048336125.png" alt="1714048336125" style="zoom: 25%;" />
+<p>Then click the setting button to enter the setting screen：</p>
+<img src="_static\images\1714048336121.png" alt="1714048336121" style="zoom:25%;" />
+<p>Enter the server address and port number in the Server ip field, the format is <strong>http://[ip]:[port]</strong></p>
+</section>
+<section id="restart-the-application-and-enter-the-video-screen">
+<h4>4.Restart the application, and enter the video screen<a class="headerlink" href="#restart-the-application-and-enter-the-video-screen" title="Link to this heading"></a></h4>
+<p><img src="_static\images\1714048336114.png" alt="1714048336114" style="zoom:25%;" /><img src="_static\images\1714048336105.png" alt="1714048336105" style="zoom:25%;" /></p>
+<p>In the upper right corner of the application page, the gray indicator indicates that the client is not connected to the server, and the green indicator indicates that the connection is normal and the photos can be transferred.</p>
+<ul class="simple">
+<li><p>Capture button: Take photos and transfer them to the server</p></li>
+<li><p>More (down arrow) button: Display the console information, the storage path of the photo, the connection details with the server, the image transfer progress can be viewed in this console.</p></li>
+</ul>
+</section>
+<section id="attention">
+<h4>5.Attention<a class="headerlink" href="#attention" title="Link to this heading"></a></h4>
+<p>Every time you change the server ip address and port in application Settings, you must restart the application for the change to take effect.</p>
+</section>
+</section>
+<section id="instructions-for-server-side-settings">
+<h3>Instructions for server side settings<a class="headerlink" href="#instructions-for-server-side-settings" title="Link to this heading"></a></h3>
+<section id="download-the-latest-server">
+<h4>1.Download the latest server<a class="headerlink" href="#download-the-latest-server" title="Link to this heading"></a></h4>
+<p><a class="reference external" href="https://github.com/sygant/onthefly/releases/download/v1.0.0/OntheflyServer.rar">https://github.com/sygant/onthefly/releases/download/v1.0.0/OntheflyServer.rar</a></p>
+</section>
+<section id="decompress-the-directory-and-double-click-the-bat-file">
+<h4>2.Decompress the directory and double-click the bat file<a class="headerlink" href="#decompress-the-directory-and-double-click-the-bat-file" title="Link to this heading"></a></h4>
+<p>If the following output is displayed, the server is running successfully:</p>
+<img src="_static\images\20240426115953047.png" alt="20240426115953047" style="zoom:100%;" />
+</section>
+<section id="attentions">
+<h4>3.Attentions<a class="headerlink" href="#attentions" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>The server uses the port 9001 by default. Ensure that port 9001 is not used before running.</p></li>
+<li><p>The upload file address defaults to /upload, and can be changed in the bat file to customize the upload path with the –uploadfolder parameter.</p></li>
+<li><p>Server file path must be in English and cannot contain Spaces.</p></li>
+<li><p>The server can connect to multiple clients, and all images are transferred to the upload folder.</p></li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="ontheflySfMen.html" class="btn btn-neutral float-left" title="On-the-Fly SfM System Instructions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, GWT.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
