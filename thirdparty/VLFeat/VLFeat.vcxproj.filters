@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="covdet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dsift.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fisher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="float.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt_long.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="heap-def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hikmeans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="homkermap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="host.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ikmeans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imopv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imopv_sse2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kdtree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kmeans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lbp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="liop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mathop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mathop_avx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mathop_sse2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pgm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="qsort-def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quickshift.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rodrigues.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scalespace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shuffle-def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sift.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="slic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stringop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="svm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="svmdataset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vlad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="array.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="covdet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dsift.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fisher.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt_long.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hikmeans.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hog.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="homkermap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="host.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ikmeans.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imopv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imopv_sse2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kdtree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kmeans.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lbp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="liop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mathop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mathop_avx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mathop_sse2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mser.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pgm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="quickshift.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="random.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rodrigues.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scalespace.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sift.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="slic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stringop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="svm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="svmdataset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vlad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikmeans_elkan.tc">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="ikmeans_init.tc">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="ikmeans_lloyd.tc">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

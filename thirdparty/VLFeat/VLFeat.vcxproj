@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aib.h" />
+    <ClInclude Include="array.h" />
+    <ClInclude Include="covdet.h" />
+    <ClInclude Include="dsift.h" />
+    <ClInclude Include="fisher.h" />
+    <ClInclude Include="float.h" />
+    <ClInclude Include="generic.h" />
+    <ClInclude Include="getopt_long.h" />
+    <ClInclude Include="gmm.h" />
+    <ClInclude Include="heap-def.h" />
+    <ClInclude Include="hikmeans.h" />
+    <ClInclude Include="hog.h" />
+    <ClInclude Include="homkermap.h" />
+    <ClInclude Include="host.h" />
+    <ClInclude Include="ikmeans.h" />
+    <ClInclude Include="imopv.h" />
+    <ClInclude Include="imopv_sse2.h" />
+    <ClInclude Include="kdtree.h" />
+    <ClInclude Include="kmeans.h" />
+    <ClInclude Include="lbp.h" />
+    <ClInclude Include="liop.h" />
+    <ClInclude Include="mathop.h" />
+    <ClInclude Include="mathop_avx.h" />
+    <ClInclude Include="mathop_sse2.h" />
+    <ClInclude Include="mser.h" />
+    <ClInclude Include="pgm.h" />
+    <ClInclude Include="qsort-def.h" />
+    <ClInclude Include="quickshift.h" />
+    <ClInclude Include="random.h" />
+    <ClInclude Include="rodrigues.h" />
+    <ClInclude Include="scalespace.h" />
+    <ClInclude Include="shuffle-def.h" />
+    <ClInclude Include="sift.h" />
+    <ClInclude Include="slic.h" />
+    <ClInclude Include="stringop.h" />
+    <ClInclude Include="svm.h" />
+    <ClInclude Include="svmdataset.h" />
+    <ClInclude Include="vlad.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aib.c" />
+    <ClCompile Include="array.c" />
+    <ClCompile Include="covdet.c" />
+    <ClCompile Include="dsift.c" />
+    <ClCompile Include="fisher.c" />
+    <ClCompile Include="generic.c" />
+    <ClCompile Include="getopt_long.c" />
+    <ClCompile Include="gmm.c" />
+    <ClCompile Include="hikmeans.c" />
+    <ClCompile Include="hog.c" />
+    <ClCompile Include="homkermap.c" />
+    <ClCompile Include="host.c" />
+    <ClCompile Include="ikmeans.c" />
+    <ClCompile Include="imopv.c" />
+    <ClCompile Include="imopv_sse2.c" />
+    <ClCompile Include="kdtree.c" />
+    <ClCompile Include="kmeans.c" />
+    <ClCompile Include="lbp.c" />
+    <ClCompile Include="liop.c" />
+    <ClCompile Include="mathop.c" />
+    <ClCompile Include="mathop_avx.c" />
+    <ClCompile Include="mathop_sse2.c" />
+    <ClCompile Include="mser.c" />
+    <ClCompile Include="pgm.c" />
+    <ClCompile Include="quickshift.c" />
+    <ClCompile Include="random.c" />
+    <ClCompile Include="rodrigues.c" />
+    <ClCompile Include="scalespace.c" />
+    <ClCompile Include="sift.c" />
+    <ClCompile Include="slic.c" />
+    <ClCompile Include="stringop.c" />
+    <ClCompile Include="svm.c" />
+    <ClCompile Include="svmdataset.c" />
+    <ClCompile Include="vlad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikmeans_elkan.tc" />
+    <None Include="ikmeans_init.tc" />
+    <None Include="ikmeans_lloyd.tc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f425b667-4f52-417b-96d5-5efea56605bb}</ProjectGuid>
+    <RootNamespace>VLFeat</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseInteloneMKL>Parallel</UseInteloneMKL>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;WIN32;_WINDOWS;COLMAP_OPENMP_ENABLED;COLMAP_CGAL_ENABLED;COLMAP_CUDA_ENABLED;COLMAP_GUI_ENABLED;COLMAP_OPENGL_ENABLED;COLMAP_GPU_ENABLED;GLOG_NO_ABBREVIATED_SEVERITIES;GL_GLEXT_PROTOTYPES;NOMINMAX;VL_DISABLE_AVX;CMAKE_INTDIR="Debug";__SSE2__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;WIN32;_WINDOWS;COLMAP_OPENMP_ENABLED;COLMAP_CGAL_ENABLED;COLMAP_CUDA_ENABLED;COLMAP_GUI_ENABLED;COLMAP_OPENGL_ENABLED;COLMAP_GPU_ENABLED;GLOG_NO_ABBREVIATED_SEVERITIES;GL_GLEXT_PROTOTYPES;NOMINMAX;VL_DISABLE_AVX;CMAKE_INTDIR="Release";__SSE2__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <SupportJustMyCode>false</SupportJustMyCode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
