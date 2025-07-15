@@ -1,7 +1,7 @@
 
 </h4>  
 <p align="center">
-    <img src="https://raw.githubusercontent.com/sygant/onthefly/refs/heads/main/src/UI/media/WindowIcon.png" width=138/>
+    <img src="https://github.com/user-attachments/assets/7dcbe542-0032-4995-8ffe-8997a267836d" width=138/>
 </p>  
 <h1 align="center">On-the-Fly SfM</h1>  
 <p align="center"><strong>Running online SfM while image capturing!</strong></p>
