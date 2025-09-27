@@ -1,5 +1,9 @@
 BSD 3-Clause License
 
+The On-the-Fly SfM software (OtF SfM) is licensed under the new BSD license. Note that this text
+refers only to the license for OtF SfM itself, independent of its dependencies,
+which are separately licensed.
+
 Copyright (c) 2025,  IRIS-LAB whu
 
 Redistribution and use in source and binary forms, with or without
